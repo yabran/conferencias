@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 
 import NavbarIndex from '../components/ui/NavbarIndex'
@@ -7,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 import Header from '../components/ui/Header'
 import ContentHome from '../components/ui/home/ContentHome'
+import Footer from '../components/ui/Footer'
+import ContentTickets from '../components/ui/tickets/ContentTickets'
 
 
 
@@ -26,11 +27,9 @@ export default function Home() {
       </Head>
       
         <NavbarIndex/>
+        <ContentTickets/>
 
-        
-          <Header/>
-        
-        <ContentHome/>
+       <Footer/>
       
 
       
